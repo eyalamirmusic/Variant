@@ -137,7 +137,7 @@ auto get_if(T* t)
 }
 
 template <typename V>
-constexpr size_t variant_size()
+constexpr std::size_t variant_size()
 {
     if constexpr (is_variant_v<V>)
     {
@@ -150,7 +150,7 @@ constexpr size_t variant_size()
 }
 
 template <typename V>
-constexpr size_t index(const V& v)
+constexpr std::size_t index(const V& v)
 {
     if constexpr (is_variant_v<V>)
     {
