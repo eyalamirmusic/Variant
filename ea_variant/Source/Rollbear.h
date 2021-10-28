@@ -1,6 +1,7 @@
 #pragma once
 
 #include <variant>
+#include <tuple>
 
 //A modified version of https://github.com/rollbear/visit
 //Modified to compile on older Mac OS systems which std::visit
